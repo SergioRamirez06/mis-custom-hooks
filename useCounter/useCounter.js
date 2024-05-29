@@ -5,7 +5,7 @@ export const useCounter = ( inicialValue =  10 ) => {
     
     const [counter, setCounter] = useState( inicialValue )
 
-    const incrementar = ( value = 1) => {
+    const incrementar = ( value = 1 ) => {
         setCounter( current => current + value )
     }
 
